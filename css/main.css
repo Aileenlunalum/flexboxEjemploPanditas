@@ -1,11 +1,24 @@
 /*container*/
 .contenedorPrincipal{
   display:flex;
+  flex-wrap:wrap;
   background: black;
-
 }
-.seccNav{
+header{
   background: red;
-    display:flex;
+  display:flex;
   flex-direction:row;
+}
+nav{
+  display:flex;
+  width:1300px;
+  flex-direction:row;
+}
+.listaX{
+    display:flex;
+    flex-direction:row;
+    justify:flex-end;
+  }
+.imagenes{
+  width: 20%;
 }
