@@ -1,0 +1,11 @@
+/*container*/
+.contenedorPrincipal{
+  display:flex;
+  background: black;
+
+}
+.seccNav{
+  background: red;
+    display:flex;
+  flex-direction:row;
+}
